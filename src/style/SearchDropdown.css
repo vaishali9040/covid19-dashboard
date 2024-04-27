@@ -1,0 +1,75 @@
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    outline: none; /* Removes the default focus outline */
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+ul.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    z-index: 1000;
+}
+
+ul.dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul.dropdown-menu li:hover {
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+  }
+  
+  /* Styles for the search container remain the same */
+  
+  .info-container {
+    display: flex;
+    justify-content: center; /* Horizontally center align */
+    margin-top: 20px; /* Add margin for separation */
+  }
+  
+  .info-box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 10px; /* Add spacing between boxes */
+  }
+  
